@@ -1,4 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  color: white; /* tudo o que tem dentro do body muda*/
+}
+:root {
+  font-size: 62.5%;
+}
 
-body{
-    background-color: aqua;
+body,
+input,
+button,
+textarea {
+  /*font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 1;*/
+
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
+#container {
+  margin: auto;
+  width: 90%;
 }

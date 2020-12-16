@@ -1,0 +1,30 @@
+#page-landing {
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat; /* valor numerico de graus, cor hexadecimal, onde inicia, e cor que termina, ou seja transição de cor*/
+  min-height: 100vh; /* 100 viewport high, minimo esperado*/
+  text-align: center;
+  display: flex;
+}
+.location,
+h1,
+.visit p {
+  height: 16vh;
+}
+.visit a {
+  height: 8rem;
+  width: 8rem;
+  background: #ffd666;
+
+  border: none;
+  border-radius: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+
+  transition: background 200ms;
+}
+.visit a:hover{
+  background: #092020;
+}

@@ -4,32 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy</title>
-    <link rel="icon" href="./public/images/logo-icon.png"/> <!--colocando logo no icone do título-->
 
-    <link rel="stylesheet" href="./public/css/main.css">
-    <!--<link rel="stylesheet" href="./public/css/animations.css">
-    <link rel="stylesheet" href="./public/css/page-landing.css">-->
-   
+    <link rel="icon" href="./public/images/logo-icon.png" />
+    <!--colocando logo no icone do título-->
+
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,800;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/css/animations.css">
+    <link rel="stylesheet" href="./public/css/page-landing.css">
   </head>
-  <body class="body">
-    <header>
-      <img src="./public/images/logo.svg" alt="Logomarca de Happy" /><!-- para identificar pelo nome-->
-    </header>
+  <body>
+    <div id="page-landing">
+      <div id="container">
+        <header>
+          <img
+          class="animate-up"
+            id="logo"
+            src="./public/images/logo.svg"
+            alt="Logomarca de Happy"
+          /><!-- para identificar pelo nome-->
+          <div class="location animate-up">
+            <strong>Santos</strong><br /><!--negrito-->
+            <p>São Paulo</p>
+          </div>
+        </header>
 
-    <div>
-        <p>
-            <strong>Rio grande</strong><br><!--negrito-->
-            RIO DE JANEIRO
-        </p>
         <main>
+          <h1 class="animate-up">Lorem ipsum dolor sit</h1>
 
-        <section>
-            <h1> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan neque in ex ullamcorper tincidunt. In arcu libero, bibendum in interdum non, varius non lacus. Ut quis mauris id lorem fermentum hendrerit. Donec cursus justo eget quam ultricies, a hendrerit sapien bibendum. Quisque tempus, neque ac laoreet laoreet, nibh ante fermentum nulla, et commodo neque turpis a lacus. Phasellus iaculis augue eu ex aliquam congue. Maecenas mauris nisl, tincidunt vitae vehicula vel, scelerisque nec tellus. Nullam vel elit sed felis condimentum vehicula.</h1>
-            <a href="#" title="Visite orfanatos"><!-- para aparecer quando colocar o cursor-->
-                <img src="./public/images/arrow.svg" alt="LINK PROXIMA PAGINA "><!-- link-->
+          <section class="visit">
+            <p class="animate-up">  
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            </p>
+            <a class="animate-up"ref="#" title="Visite orfanatos"
+              ><!-- para aparecer quando colocar o cursor-->
+              <img
+                src="./public/images/arrow.svg"
+                alt="LINK PROXIMA PAGINA "
+              /><!-- link-->
             </a>
-        </section>
-    </main>
+          </section>
+        </main>
+      </div>
     </div>
   </body>
 </html>
